@@ -25,7 +25,7 @@ namespace Example009_IntroArray
           // );
           // Console.WriteLine(result);
 
-          int[] array = {1, 12, 31, 4, 15, 16, 17, 18 };
+          int[] array = { 1, 12, 31, 18, 4, 15, 16, 17, 18 };
 
           int n = array.Length;
           int find = 18;
@@ -38,6 +38,7 @@ namespace Example009_IntroArray
               if(array[index] == find)
               {
                   Console.WriteLine(index);
+                  break;
               }
               //index = index + 1;
               index++;
