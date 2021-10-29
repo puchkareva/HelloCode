@@ -71,7 +71,7 @@ namespace Example009_IntroArray
           {
               int count = collection.Length;
               int index = 0;
-              int position = 0;
+              int position = -1;
 
               while (index < count)
               {
@@ -88,10 +88,12 @@ namespace Example009_IntroArray
           int[] array = new int[10];
 
           FillArray(array);
+          array[4] = 4;
+          array[6] = 4;
           PrintArray(array);
           Console.WriteLine();
 
-          int pos = IndexOf(array, 4);
+          int pos = IndexOf(array, 44);
           Console.WriteLine(pos);
 
 
