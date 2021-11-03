@@ -119,7 +119,13 @@ namespace Example010_Methods
             }
             
             string newText = Replace(text, ' ', '|');
+
             Console.WriteLine(newText);
+            Console.WriteLine();
+            newText = Replace(text, 'к', 'К');
+            Console.WriteLine(newText);
+            
+            
             
 
 
