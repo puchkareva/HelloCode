@@ -47,7 +47,7 @@ namespace Example010_Methods
 
             // Вид 4
 
-            int Method4(int count, string text)
+            string Method4(int count, string text)
             {
                 int i = 0;
                 string result = String.Empty;
