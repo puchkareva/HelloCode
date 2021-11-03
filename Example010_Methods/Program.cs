@@ -122,7 +122,7 @@ namespace Example010_Methods
 
             Console.WriteLine(newText);
             Console.WriteLine();
-            newText = Replace(text, 'к', 'К');
+            newText = Replace(newText, 'к', 'К');
             Console.WriteLine(newText);
             
             
